@@ -98,5 +98,6 @@
         <build id="01dabb217cba63c4e476815325572aa7a22f985605e5c855ed255ceeda00f651" bug="442723476"/>
         <build id="96abaaeac1e984375dd20d46c15d57bad03a8a25ddc87d56bc05e51e16708958" bug="444322847"/>
         <build id="6222bf2f8d4f79001f381523861489c3118aeb16e62b0213427cdf4d6d3449cc" bug="444319749"/>
+        <build id="e50aa8ea03599b5a22587cffdbd34dba8e39ea4a59a1cbb20d25a65d58320c18" bug="445100407"/>
     </branch>
 </ogki-approved>
