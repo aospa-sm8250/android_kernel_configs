@@ -23,6 +23,8 @@ import (
 	"android/soong/android"
 )
 
+//go:generate go run ../../../build/blueprint/gobtools/codegen/gob_gen.go
+
 var (
 	pctx = android.NewPackageContext("android/soong/kernel/configs")
 
@@ -61,6 +63,7 @@ type KernelConfigRule struct {
 	outputPath android.WritablePath
 }
 
+// @auto-generate: gob
 type KernelConfigInfo struct {
 	OutputPath android.Path
 }
